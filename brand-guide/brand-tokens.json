@@ -1,0 +1,21 @@
+{
+  "name": "The Null Catchers",
+  "tagline": "Ideas • Code • Build • Beyond",
+  "colors": {
+    "cyan": "#00E0FF",
+    "blue": "#3882F6",
+    "purple": "#8B5CF6",
+    "dark": "#0B0F1A",
+    "surface": "#1F2937",
+    "light": "#F8FAFC"
+  },
+  "typography": {
+    "display": "Orbitron",
+    "body": "Inter"
+  },
+  "clearSpace": "1x",
+  "minimumSize": {
+    "digital": "24px",
+    "print": "8mm"
+  }
+}
