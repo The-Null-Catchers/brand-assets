@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 980"><defs>
+  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#00E0FF"/>
+    <stop offset="55%" stop-color="#3882F6"/>
+    <stop offset="100%" stop-color="#8B5CF6"/>
+  </linearGradient>
+  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="8" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs><g transform="translate(194 18)"><g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M166 382 A172 172 0 1 1 346 382" stroke="url(#grad)" stroke-width="42"/>
+  <ellipse cx="256" cy="256" rx="220" ry="82" transform="rotate(-24 256 256)" stroke="url(#grad)" stroke-width="34"/>
+  <path d="M166 342 V168 L346 344 V168" stroke="url(#grad)" stroke-width="52"/>
+</g></g><text x="450" y="650" text-anchor="middle" font-family="Orbitron,Arial,sans-serif" font-size="54" font-weight="700" fill="#F8FAFC">THE</text><text x="450" y="755" text-anchor="middle" font-family="Orbitron,Arial,sans-serif" font-size="94" font-weight="800" fill="#F8FAFC">NULL <tspan fill="#00E0FF">CATCHERS</tspan></text><text x="450" y="824" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="25" letter-spacing="9" fill="#F8FAFC">IDEAS • CODE • BUILD • BEYOND</text></svg>
