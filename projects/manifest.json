@@ -1,0 +1,82 @@
+{
+  "projects": {
+    "pulsemesh": {
+      "source": "neon_p_waveform_app_icon.png",
+      "master_size": "1024x1024",
+      "files": [
+        "master.png",
+        "icon-1024.png",
+        "icon-512.png",
+        "icon-256.png",
+        "icon-128.png",
+        "icon-64.png",
+        "icon-32.png"
+      ]
+    },
+    "clouddeck": {
+      "source": "square_app_icon_style_digital_illustration_futuri.png",
+      "master_size": "1024x1024",
+      "files": [
+        "master.png",
+        "icon-1024.png",
+        "icon-512.png",
+        "icon-256.png",
+        "icon-128.png",
+        "icon-64.png",
+        "icon-32.png"
+      ]
+    },
+    "streamforge": {
+      "source": "molten_neon_streaming_play_icon.png",
+      "master_size": "1024x1024",
+      "files": [
+        "master.png",
+        "icon-1024.png",
+        "icon-512.png",
+        "icon-256.png",
+        "icon-128.png",
+        "icon-64.png",
+        "icon-32.png"
+      ]
+    },
+    "vaultpass": {
+      "source": "neon_shield_lock_icon.png",
+      "master_size": "1024x1024",
+      "files": [
+        "master.png",
+        "icon-1024.png",
+        "icon-512.png",
+        "icon-256.png",
+        "icon-128.png",
+        "icon-64.png",
+        "icon-32.png"
+      ]
+    },
+    "docmind": {
+      "source": "neon_brain_document_app_icon.png",
+      "master_size": "1024x1024",
+      "files": [
+        "master.png",
+        "icon-1024.png",
+        "icon-512.png",
+        "icon-256.png",
+        "icon-128.png",
+        "icon-64.png",
+        "icon-32.png"
+      ]
+    },
+    "chesscoach-ai": {
+      "source": "neon_gold_ai_chess_knight.png",
+      "master_size": "1024x1024",
+      "files": [
+        "master.png",
+        "icon-1024.png",
+        "icon-512.png",
+        "icon-256.png",
+        "icon-128.png",
+        "icon-64.png",
+        "icon-32.png"
+      ]
+    }
+  }
+}
