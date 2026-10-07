@@ -116,6 +116,19 @@
         "icon-64.png",
         "icon-32.png"
       ]
+    },
+    "searchforge": {
+      "source": "master.png",
+      "master_size": "1024x1024",
+      "files": [
+        "master.png",
+        "icon-1024.png",
+        "icon-512.png",
+        "icon-256.png",
+        "icon-128.png",
+        "icon-64.png",
+        "icon-32.png"
+      ]
     }
   }
 }
