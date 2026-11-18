@@ -1,51 +1,51 @@
-# brand-assets — خطة البورتفيليو
+# brand-assets portfolio roadmap
 
-مرجع التقييم الأساسي: 17 نوفمبر 2026. تحديث نشر الخطة داخل المستودع: 18 نوفمبر 2026.
+Baseline reviewed on November 17, 2026. Repository roadmap published on November 18, 2026.
 
-الخطة خاصة بهذا المستودع، ومستخلصة من خطة Null Catchers المشتركة. وصف «الموجود الموثق» يعكس المراجعة بتاريخها؛ تحقّق من الكود ووثائق الحالة الحالية قبل إنشاء مهمة جديدة. لا تعِد تنفيذ ميزة موجودة، ولا تعتبر وجود تعريف CI دليلًا على نجاح تشغيله.
+This roadmap applies to this repository and follows the shared Null Catchers portfolio plan. Verify the documented state against the current code and runs before starting work.
 
-**تقدير شريحة العرض الأولى:** 4–8 ساعات. التقدير تخطيطي لمطور يعرف المشروع، ويستثني انتظار حسابات المتاجر والمراجعات الخارجية وتجهيز بيئة الهدف. لا يغطي جميع بنود P2.
+**Estimated initial demo effort** 4–8 hours for a developer familiar with the project. The estimate excludes external reviews, store accounts, target environment setup, and later milestones.
 
-## الأولويات الخاصة بالمشروع
+## Project priorities
 
-**الموجود المتحقق:** logos SVG/PNG، أيقونات، social، brand tokens وأصول خاصة بمشاريع. الجهد المطلوب ضبط الاستعمال وإظهار النظام، لا استبدال الهوية من الصفر.
+**Documented state** The repository contains SVG and PNG logos, icons, social assets, design tokens, and project-specific assets. The work focuses on documenting the existing identity.
 
-**P0 — أول مسار قابل للعرض** وثّق استعمال الأصول الحالية وأنتج حزمة يمكن إعادة استخدامها.
+**P0 — Demo** Document the current logo system and validate a reusable asset package.
 
-**P1 — تحقق ومعرض:** أنشئ contact sheet أو صفحة static بسيطة تعرض أصول المشاريع مع الاسم والمقاس ونسخة فاتحة/داكنة. أضف فحصًا لصلاحية JSON وSVG ووجود PNG sizes المتفق عليها والروابط المكسورة؛ قس تباين ألوان النص/الخلفية المقترحة بدل استخدام اللون الزخرفي للنصوص تلقائيًا.
+**P1 — Validation and depth** Create a contact sheet or static gallery with asset names, dimensions, and light and dark variants. Validate JSON, SVG, agreed PNG sizes, links, and text contrast.
 
-**P2 — لاحقًا:** مولد exports حتمي من masters إلى favicon/app icons/OG images، مع تجنب إعادة توليد ملفات ثنائية بلا حاجة أو تغيير الهوية ضمنيًا.
+**P2 — Later** Generate favicons, app icons, and social previews deterministically from master assets. Regenerate binary assets when their inputs change.
 
-**معيار الإنجاز:** كل مشروع رئيسي له icon وOG cover متسقان، أسماء الملفات مفهومة، الاستعمال الصحيح واضح، وملف token واحد يمكن الاعتماد عليه.
+**Acceptance criteria** Each featured project has a consistent icon and social cover, clear usage instructions, and a single source of design tokens.
 
-**العرض:** لوحة هوية المؤسسة وثلاث بطاقات مشاريع بواقع الأصول الحالية. **الأدلة:** [README](https://github.com/The-Null-Catchers/brand-assets/blob/main/README.md)، [Brand Tokens](https://github.com/The-Null-Catchers/brand-assets/blob/main/brand-guide/brand-tokens.json).
+**Demo scenario** Organization identity board and three project cards using existing assets. [README](https://github.com/The-Null-Catchers/brand-assets/blob/main/README.md), [Brand Tokens](https://github.com/The-Null-Catchers/brand-assets/blob/main/brand-guide/brand-tokens.json).
 
-## الدفعة التالية
+## Next milestones
 
-تتضمن الأصول الحالية نسخًا أفقية ومكدسة وأحادية اللون و[قيم الهوية](brand-guide/brand-tokens.json).
+Review the [design tokens](brand-guide/brand-tokens.json) alongside the horizontal, stacked, and monochrome logo variants.
 
-1. [ ] اعرض النسخ المعتمدة على خلفيتين فاتحة وداكنة مع تحديد المساحة الآمنة والحجم الأدنى لكل صيغة.
-2. [ ] طابق مقاسات PNG مع أسمائها واختبر الروابط وتباين النص. تنشر الحزمة بعد توثيق حقوق الأصول والخطوط ونسبها.
+1. [ ] Show approved variants on light and dark backgrounds. Document clear space and minimum sizes.
+2. [ ] Check that PNG dimensions match their labels, confirm links and contrast, and document usage rights and attribution for assets and fonts before distributing the package.
 
-## بوابة قبول نسخة البورتفيليو
+## Portfolio acceptance checklist
 
-- [ ] يستطيع شخص آخر تشغيل المسار الرئيسي من checkout نظيف، باتباع README، دون أسرار شخصية.
-- [ ] توجد قصة واحدة مكتملة: مستخدم محدد، مشكلة محددة، ومسار بداية إلى نتيجة محفوظة.
-- [ ] ينجح اختبار للمسار الرئيسي وحالة فشل مهمة، وتُختبر حدود الصلاحيات حيث توجد حسابات متعددة.
-- [ ] توجد بيانات عرض اصطناعية معلنة، قابلة لإعادة الإنشاء؛ ولا توجد بيانات عملاء أو أسرار في اللقطات.
-- [ ] توجد 4–6 لقطات حقيقية أو العدد الملائم للأداة، وفيديو 60–120 ثانية، وروابط تعمل. تُلتقط الأدلة من إصدار معروف.
-- [ ] README يوضح المزايا الفعلية، طريقة التشغيل، الرسم المعماري، القيود، وروابط الاختبارات والديمو.
-- [ ] Case study قصيرة تشرح قرارين هندسيين، بديلًا جرى استبعاده ولماذا، وفشلًا حقيقيًا وكيف يعالجه النظام.
-- [ ] صفحة Release تسجل SHA وCI والمتطلبات والقيود. لا تُنشر أرقام أداء دون workload وعتاد وطريقة قياس.
-- [ ] حُسمت سياسة الترخيص ونسب المساهمات قبل التوزيع؛ لا نختار ترخيصًا تلقائيًا لجميع المستودعات.
+- [ ] Another person can reproduce the primary workflow from a clean checkout using the README and test credentials or fixtures.
+- [ ] The demo tells one complete story with a defined user, problem, and saved result.
+- [ ] Tests cover the main flow, an important failure, and access boundaries when multiple accounts are involved.
+- [ ] Demo data is labeled synthetic and reproducible. Review screenshots and recordings for secrets and customer data.
+- [ ] Include four to six real screenshots where appropriate, a 60–120 second recording, and working links. Identify the revision used for capture.
+- [ ] The README describes implemented capabilities, setup, architecture, limits, tests, and the demo.
+- [ ] A short case study explains two engineering decisions, a considered alternative, and how the system handles an actual failure.
+- [ ] Release evidence records the commit SHA, CI, prerequisites, and limits. Performance data includes workload, hardware, and method.
+- [ ] Licensing and contributor attribution are settled before distribution. Choose the license for each repository individually.
 
-الديمو المستضاف مفيد وليس شرطًا لكل أداة. أدوات تنفيذ الكود وإدارة الخوادم والأسرار يمكن عرضها بفيديو وبيئة معزولة وتجربة محلية قابلة للإعادة. لا تفتح تنفيذًا عامًا غير محدود لمجرد وجود رابط بورتفيليو.
+A hosted demo is optional. Code execution, server administration, and secret management can be demonstrated through a recording and a reproducible isolated environment. Keep public demo access scoped to the activities it needs.
 
-## التنفيذ والمتابعة
+## Implementation and follow-up
 
-- حوّل P0 إلى مهام صغيرة، لكل منها سلوك متوقع ومعيار قبول واختبار مناسب.
-- ابدأ بتأكيد الموجود؛ عدّل هذه الخطة عندما يغلق بند بدليل مرتبط بcommit أو PR.
-- سجّل مصدر بيانات الديمو، والـSHA الذي التُقطت منه الأدلة، وحدود التجربة الفعلية.
-- راجع الفرق النهائي وانتظر نجاح الفحوص المطلوبة لنفس SHA قبل الدمج، مع احترام حماية الفرع.
-- إذا كان التعديل وثائق فقط ولا يوجد فحص ينطبق عليه، سجّل التحقق من محتواها وروابطها؛ لا تسجل اختبارات تشغيل لم تُنفّذ.
-- لا تُنشر أرقام أداء أو ادعاءات أمان أو جاهزية إنتاج بلا دليل مناسب.
+- Break P0 into tasks with expected behavior, acceptance criteria, and a suitable test.
+- Verify existing functionality first. Update this plan when evidence tied to a commit or PR closes a milestone.
+- Record the fixture source, the revision used for evidence, and the tested limits.
+- Review the final diff and verify required checks for its exact SHA before merging. Follow branch protection.
+- For documentation-only changes with no applicable workflow, verify content and links and record the checks actually performed.
+- Tie performance, security, and readiness claims to supporting evidence.
