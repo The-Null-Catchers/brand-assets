@@ -24,8 +24,9 @@ This roadmap applies to this repository and follows the shared Null Catchers por
 
 Review the [design tokens](brand-guide/brand-tokens.json) alongside the horizontal, stacked, and monochrome logo variants.
 
-1. [ ] Show approved variants on light and dark backgrounds. Document clear space and minimum sizes.
-2. [ ] Check that PNG dimensions match their labels, confirm links and contrast, and document usage rights and attribution for assets and fonts before distributing the package.
+1. [x] Show the logo variants and document background pairings, clear space, and minimum sizes in the [usage guide](brand-guide/USAGE.md).
+2. [x] Check the labelled PNG dimensions, usage guide links, and solid-color contrast pairs.
+3. [ ] Confirm asset redistribution rights and record any applicable font attribution before distributing the package.
 
 ## Portfolio acceptance checklist
 
